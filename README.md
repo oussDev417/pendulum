@@ -1,10 +1,10 @@
-# 🎯 Simulation Pendule - Prédiction IA
+# Simulation Pendule - Prédiction IA - PROJET EEIA 2025 BENIN EXCELLENCE PNUD
 
 ## 📋 Description du Projet
 
 Ce projet propose une **interface web moderne** pour la simulation et la prédiction du temps de stabilisation d'un pendule en utilisant l'intelligence artificielle.
 
-### 🎯 Objectif Principal
+### Objectif Principal
 Déterminer le temps de stabilisation d'un pendule à l'aide d'un modèle d'intelligence artificielle. Un modèle physique de haute fidélité (méthode RK45) est d'abord utilisé pour générer des données d'entraînement, puis un modèle MLP (Multi-Layer Perceptron) fournit des prédictions rapides et précises.
 
 ### 🔬 Méthodologie
@@ -99,8 +99,8 @@ pendulum/
 ├── app.py                 # Application Flask principale
 ├── collecteur.py         # Script de collecte de données
 ├── test.py              # Tests de simulation
-├── mlp_model_40_v3.pkl  # Modèle MLP entraîné
-├── modele (1).ipynb     # Notebook d'entraînement
+├── mlp_model_4_v1.pkl  # Modèle MLP entraîné
+├── Projet_5.ipynb     # Notebook d'entraînement
 ├── requirements.txt      # Dépendances Python
 ├── templates/
 │   └── index.html       # Interface web
@@ -161,17 +161,15 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
 ## 📄 Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+Et est la propriété de BENIN EXCELLENCE
 
 ## 👥 Auteurs
 
-- **Équipe de développement** - *Travail initial* - [VotreNom]
+- **Équipe de développement** - *Travail initial* - BIO KOUMAZAN Ousséni
 
-## 🙏 Remerciements
+## Remerciements
 
-- **Scipy** pour l'intégration numérique
-- **Scikit-learn** pour le machine learning
-- **Flask** pour le framework web
-- **Chart.js** pour les visualisations
+ **EEIA-BENIN EXCELLENCE** 
 
 ---
 
